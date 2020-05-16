@@ -7,8 +7,8 @@ window = Tk(className=" TAC")
 window.geometry("200x150")
 window.resizable(False, False)
 
-var = DoubleVar()
-scale = Scale( window, variable = var, orient=HORIZONTAL, sliderrelief='flat', from_=0, to=100, highlightthickness=20) #command = setSound(var)
+var = DoubleVar() 
+scale = Scale( window, variable = var, orient=HORIZONTAL, sliderrelief='flat', from_=0, to=100, highlightthickness=20)
 scale.set(50)
 scale.pack(fill=X, anchor=CENTER, pady=20)
 
