@@ -1,4 +1,4 @@
-# teams_sound_control
+# teams_volume_normalizer
 
 this short python script will let you auto refresh your teams sound on windows 
 
