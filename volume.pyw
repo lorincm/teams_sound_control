@@ -1,7 +1,9 @@
+#the pyw file extension prevents the useless cmd window to pop up
+
 from tkinter import * 
 from pycaw.pycaw import AudioUtilities, ISimpleAudioVolume
 
-window = Tk(className=" TVC")
+window = Tk(className=" TAC")
 window.geometry("200x150")
 window.resizable(False, False)
 
@@ -21,3 +23,4 @@ def setSound():
 
 window.after(500, setSound)
 window.mainloop()
+
