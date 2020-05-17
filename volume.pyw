@@ -4,7 +4,7 @@ from pycaw.pycaw import AudioUtilities, ISimpleAudioVolume
 window = Tk(className=" TVN")
 window.geometry("200x150")
 window.resizable(False, False)
-window.iconbitmap('volume.ico')
+#window.iconbitmap('volume.ico') add an icon over the default one
 
 var = DoubleVar()
 scale = Scale( window, variable = var, orient=HORIZONTAL, sliderrelief='flat', from_=0, to=100, highlightthickness=20) #command = setSound(var)
